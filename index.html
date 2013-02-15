@@ -145,10 +145,22 @@ pre code {
 }
 </style>
 <title>Senior Design Weblog</title>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
 <body>
 <h1>Senior Design Weblog</h1>
+
+<hr />
+
+<h4>02-15-2013 -- DoD Ch. 8-9</h4>
+
+<h5><em>Chapter 8</em></h5>
+
+<p>Brooks sees a dichotomy in software design between what he terms "rationalists" and "empiricists". Provable correctness is attainable in software since just about anything you do in a program maps directly to some mathematical operation. This isn't true for most fields, and software engineers should consider themselves lucky rather than fighting with that fact. We live in the world software empiricists (I don't think empiricism is actually the right word here, more like software by heuristic) have built, and it's buggy and crashes all the time. I think his argument about software proofs being unworkable for anything bigger than a kernel assumes you write a proof about the whole thing at once. Software should be composed of smaller, simple, provably correct pieces. This isn't always possible, but it's not a waste of time either: see the re-emergence of functional programming as concurrent programs become very difficult to reason about.</p>
+
+<h5><em>Chapter 9</em></h5>
+
+<p>Chapter 9 has a pretty simple message: Don't assume everyone is on the same page about design goals. Things shouldn't be implicit, they should be explicit. Even an attempt to make them explicit can even be useful to the design as it sometimes exposes ignorance and faulty assumptions. Moreover, at least everyone is working toward the same goal, correct or not.</p>
 
 <hr />
 
